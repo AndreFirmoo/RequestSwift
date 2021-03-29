@@ -13,6 +13,8 @@
 		28D2F93B260FF7590089FFEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D2F939260FF7590089FFEE /* Main.storyboard */; };
 		28D2F93D260FF75A0089FFEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D2F93C260FF75A0089FFEE /* Assets.xcassets */; };
 		28D2F940260FF75A0089FFEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D2F93E260FF75A0089FFEE /* LaunchScreen.storyboard */; };
+		28D2F949261024560089FFEE /* MoviesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F948261024560089FFEE /* MoviesResponse.swift */; };
+		28D2F94D261025710089FFEE /* MovieAPIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F94C261025710089FFEE /* MovieAPIServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		28D2F93C260FF75A0089FFEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28D2F93F260FF75A0089FFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28D2F941260FF75A0089FFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28D2F948261024560089FFEE /* MoviesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesResponse.swift; sourceTree = "<group>"; };
+		28D2F94C261025710089FFEE /* MovieAPIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPIServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				28D2F93C260FF75A0089FFEE /* Assets.xcassets */,
 				28D2F93E260FF75A0089FFEE /* LaunchScreen.storyboard */,
 				28D2F941260FF75A0089FFEE /* Info.plist */,
+				28D2F948261024560089FFEE /* MoviesResponse.swift */,
+				28D2F94C261025710089FFEE /* MovieAPIServices.swift */,
 			);
 			path = RequestHTTP;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 				28D2F938260FF7590089FFEE /* ViewController.swift in Sources */,
 				28D2F934260FF7590089FFEE /* AppDelegate.swift in Sources */,
 				28D2F936260FF7590089FFEE /* SceneDelegate.swift in Sources */,
+				28D2F94D261025710089FFEE /* MovieAPIServices.swift in Sources */,
+				28D2F949261024560089FFEE /* MoviesResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
